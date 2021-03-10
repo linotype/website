@@ -51,6 +51,10 @@
         "symfony/symfony": "*"
     },
     "extra": {
+        "installer-types": ["linotype"],
+        "installer-paths": {
+            "linotype/": ["type:linotype"]
+        },
         "symfony": {
             "allow-contrib": false,
             "require": "5.2.*"
